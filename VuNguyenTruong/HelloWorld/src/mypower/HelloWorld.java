@@ -17,8 +17,7 @@ public class HelloWorld {
 	 * Nhờ đó JVM mới tìm được hàm main này và thực thi
 	 * Tham số là 1 mảng String truyền theo kiểu command line 
 	 *  + [0]-tên chương trình
-	 *  + [1]-số lượng tham số
-	 *  + [2,...n]- các tham số với số lượng tương ứng với [1]
+	 *  + [1,...n] : danh sách các tham số
 	 */
 	public static void main(String[] args) {
 		
