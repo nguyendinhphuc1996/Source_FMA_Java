@@ -1,0 +1,33 @@
+package TOPIC_2;
+
+// 3. Nhập một dãy số. Xuất ra 2 loại từ dãy số đó (Số nguyên tố, số chính phương -> Sử dụng hàm)
+
+public class BaiTap_3
+{
+	static boolean laSoNguyenTo(int so)
+	{
+		if(so < 2)
+			return false;
+		else if(so == 2)
+			return true;
+		else 
+		{
+			for(int i=3;i<=Math.sqrt((double)so);i++)
+			{
+				if(so%i == 0)
+					return false;
+			}
+		}
+		return true;
+	}
+	
+	static boolean laSoChinhPhuong(int so)
+	{
+		return Math.sqrt((double)so)==0;
+	}
+	
+	public static void main(String[] args)
+	{
+
+	}
+}

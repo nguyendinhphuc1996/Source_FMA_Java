@@ -1,0 +1,56 @@
+package TOPIC_2;
+
+import java.util.Scanner;
+
+// 3. Nhập một dãy số. Xuất ra 2 loại từ dãy số đó (Số nguyên tố, số chính phương -> Sử dụng hàm)
+
+public class BaiTap_3
+{
+	static boolean laSoNguyenTo(int so)
+	{
+		if (so < 2)
+			return false;
+		else if (so == 2)
+			return true;
+		else
+		{
+			for (int i = 3; i <= Math.sqrt((double) so); i++)
+			{
+				if (so % i == 0)
+					return false;
+			}
+		}
+		return true;
+	}
+
+	static boolean laSoChinhPhuong(int so)
+	{
+		return Math.sqrt((double) so) % 1 == 0;
+	}
+
+	public static void main(String[] args)
+	{
+		String so = new String();
+		System.out.print("Nhập vào một dãy số nguyên (cách nhau bằng dấu /',/') : ");
+		Scanner nhapSo = new Scanner(System.in);
+		so = nhapSo.nextLine();
+		try
+		{
+			String daySoNguyenTo = "", daySoChinhPhuong = "";
+			so = so.trim();
+			char[] arrSo = so.split("-"));
+			for (char c : arrSo)
+			{
+				if (laSoNguyenTo((int) c))
+					daySoNguyenTo += c + " ";
+				if (laSoChinhPhuong((int) c))
+					daySoChinhPhuong += c + " ";
+			}
+			System.out.println("> Các số nguyên tố: " + daySoNguyenTo);
+			System.out.println("> Các số chính phương: " + daySoChinhPhuong);
+		} catch (Exception e)
+		{
+			System.out.print("Nhập không phải là số!");
+		}
+	}
+}
