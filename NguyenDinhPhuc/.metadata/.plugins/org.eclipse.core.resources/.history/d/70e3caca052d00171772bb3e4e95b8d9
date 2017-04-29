@@ -1,0 +1,12 @@
+package TOPIC_2;
+
+import java.util.Scanner;
+
+public class BaiTap_2
+{
+	public static void main(String[] args)
+	{
+		String str = new String();
+		Scanner nhap = new Scanner(System.in);
+	}
+}

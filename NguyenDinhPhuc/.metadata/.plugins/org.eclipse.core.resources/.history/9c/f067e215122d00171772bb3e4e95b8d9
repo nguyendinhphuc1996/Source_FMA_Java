@@ -1,0 +1,21 @@
+package TOPIC_2;
+
+public class BaiTap_3
+{
+	public static void main(String[] args)
+	{
+
+		float x = 4.34f;
+		x = x*100;
+		float y = 4.4f;
+		if ((x%1) == 0)
+			System.out.println("same");
+		else
+			System.out.println("different");
+		
+		if ((y%1) == 0)
+			System.out.println("same");
+		else
+			System.out.println("different");
+	}
+}

@@ -1,0 +1,29 @@
+package TOPIC_2;
+
+import java.util.Scanner;
+
+// 2. Nhập một chuỗi -> Kiểm tra xem đó là số hay chữ.
+// tìm hiểu thêm về cách dùng Regex trong bài toán
+
+public class BaiTap_2
+{
+	static bool laChuoiSo(String s)
+	{
+		foreach(char c: s.toCharArray())
+		{
+			if(Character.isLetter(c))
+			{
+				return 0;
+			}
+		}
+		return 1;
+	}
+	public static void main(String[] args)
+	{
+		String str = new String();
+		Scanner nhap = new Scanner(System.in);
+		System.out.print("Nhập vào một chuỗi: ");
+		str = nhap.nextLine();
+		
+	}
+}
