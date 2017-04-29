@@ -1,0 +1,14 @@
+package TOPIC_2;
+
+public class BTMau {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuffer sb = new StringBuffer("Hello");
+		sb.append(" Java")
+	}
+
+}

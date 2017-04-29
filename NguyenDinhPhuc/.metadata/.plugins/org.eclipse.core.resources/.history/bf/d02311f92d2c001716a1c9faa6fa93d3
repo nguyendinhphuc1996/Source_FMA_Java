@@ -1,0 +1,17 @@
+package TOPIC_2;
+
+import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
+
+public class BTMau {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuffer sb=new StringBuffer("Hello");  
+		sb.replace(1,4,"Java");  
+		System.out.println(sb);//in ra ket qua la HJavalo  
+	}
+
+}

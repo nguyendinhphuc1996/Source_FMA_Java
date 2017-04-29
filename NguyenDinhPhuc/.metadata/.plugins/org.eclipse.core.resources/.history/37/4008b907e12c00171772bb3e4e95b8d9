@@ -1,0 +1,51 @@
+package TOPIC_2;
+
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+// 1. Nhập vào một xâu. Tạo ra xâu đảo ngược với xâu đã nhập.
+
+final class Ham
+{
+	final String str;
+
+	public final String getStr()
+	{
+		return str;
+	}
+
+	public final void setStr(String str)
+	{
+		this.str = str;
+	}
+}
+
+public class BaiTap_1
+{
+	void inDaoNguoc(Ham chuoi)
+	{	
+		chuoi.setStr("NEW");
+	}
+	public static void main(String[] args)
+	{
+		System.out.println("*********** CHƯƠNG TRÌNH IN CHUỖI NGƯỢC ***********");
+		try
+		{
+			System.out.print("> Nhập chuỗi ký tự : ");
+			BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+			Ham chuoi = new Ham();
+			chuoi.str = in.readLine();			
+			System.out.println("-> Chuỗi vừa nhập : "+chuoi.str);
+			
+			BaiTap_1 a = new BaiTap_1();
+			a.inDaoNguoc(chuoi);
+			System.out.print("-> Chuỗi vừa nhập : "+chuoi.str);
+		}
+		catch(Exception e)
+		{
+			
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+package TOPIC_2;
+
+// 1. Nhập vào một xâu. Tạo ra xâu đảo ngược với xâu đã nhập.
+
+public class BaiTap_1
+{
+	String chuoiDaoNguoc(String chuoi)
+	{	
+		char[] arrChar = chuoi.toCharArray();
+		for(int i=arrChar.length-1;i>=0;i++)
+		{
+			
+		}
+	}
+	public static void main(String[] args)
+	{
+		
+	}
+}

@@ -1,0 +1,15 @@
+package TOPIC_2;
+
+public class BTMau {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=10;
+		int y=3;
+		System.out.print("x>y = "+(x>>y));
+	}
+
+}

@@ -1,0 +1,17 @@
+package TOPIC_2;
+
+public class BTMau {
+		
+	final int myNumber; 
+	 public run(int num){
+	 this.myNumber = num;
+	}
+	
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		BTMau obj=new  BTMau();  
+		 obj.run();  
+	}
+
+}

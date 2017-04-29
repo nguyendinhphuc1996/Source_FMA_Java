@@ -1,0 +1,31 @@
+package TOPIC_2;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+// 1. Nhập vào một xâu. Tạo ra xâu đảo ngược với xâu đã nhập.
+
+public class BaiTap_1
+{
+	String chuoiDaoNguoc(String chuoi)
+	{	
+		String strDaoNguoc = new String(); 
+		char[] arrChar = chuoi.toCharArray();
+		for(int i=arrChar.length-1;i>=0;i++)
+		{
+			strDaoNguoc.arrChar[i]);
+		}
+		return strDaoNguoc;
+	}
+	public static void main(String[] args)
+	{
+		System.out.print("Nhập chuỗi ký tự : ");
+		Scanner in = new Scanner(System.in);
+		String str = in.nextLine();
+		
+		BaiTap_1 obj = new BaiTap_1();
+		String strDaoNguoc = obj.chuoiDaoNguoc(str);
+		System.out.print("Kết quả đảo ngược : "+ strDaoNguoc);
+	}
+}

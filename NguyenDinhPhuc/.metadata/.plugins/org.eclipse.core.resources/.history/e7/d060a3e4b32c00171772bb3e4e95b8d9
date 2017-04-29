@@ -1,0 +1,21 @@
+package TOPIC_2;
+
+// 1. Nhập vào một xâu. Tạo ra xâu đảo ngược với xâu đã nhập.
+
+public class BaiTap_1
+{
+	public static void main(String[] args)
+	{
+		int c='\0';
+		try
+		{
+			c = (int) System.in.read();
+		}
+		catch(Exception e)
+		{
+			System.out.print("Lỗi");
+		}
+		System.out.print("Ky tu vua nhap: "+ c);
+	}
+
+}
