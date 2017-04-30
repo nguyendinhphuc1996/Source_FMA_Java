@@ -1,0 +1,47 @@
+package TOPIC_2;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+/*
+ * 4. Xử lý date & time : 
+ * Nhập một ngày bất kỳ (Kiểm tra có phải ngày hợp lệ, 
+ * tức là chuỗi nhập vào phải là đúng DateTime), 
+ * rồi so với ngày hiện tại là cách xa nhiêu ngày 
+ * (Phải in ra 2 ngày đã nhập theo định dạng dd/MM/yyyy)
+ */
+
+public class BaiTap_4
+{
+	// static boolean isDate(String strDate)
+	// {
+	// try
+	// {
+	// SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+	// Date $date = sdf.parse(strDate);
+	// } catch (Exception e) // Xem thêm : nên dùng Exception hay ParseException
+	// {
+	// return false;
+	// }
+	// return true;
+	// }
+
+	public static void main(String[] args)
+	{
+		String $date = new String();
+		System.out.print("Nhập vào một ngày (dd/MM/yyyy): ");
+		Scanner nhapDate = new Scanner(System.in);
+		$date = nhapDate.nextLine();
+
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		try
+		{
+			Date $objDate = sdf.parse($date);
+			System.out.print(sdf.format($objDate));
+		} catch (Exception e) // Xem thêm : nên dùng Exception hay ParseException
+		{
+			System.out.print("Nhập không hợp lệ!");
+		}
+	}
+}
