@@ -1,0 +1,57 @@
+package TOPIC_2;
+
+import java.util.Scanner;
+
+/*
+ * 6. Ma trận (Mảng 2 chiều): Cho ma trận số nguyên cấp n x m. Cài đặt các hàm thực hiện các chức năng sau:
+ * + Nhập ma trận và in ma trận.
+ * + Tìm phần tử chẵn nhỏ nhất.
+ * + Tìm dòng có tổng lớn nhất.
+ * + Nhập số dòng cần xóa -> Xóa dòng đó
+ * + Hoán vị 2 dòng trong ma trận
+ */
+public class BaiTap_6
+{
+	static int[][] Matrix;
+	
+	public static void main(String[] args)
+	{
+		
+	}
+
+	//============= METHOD ================
+	
+	static void nhapMatrix(int n, int m)
+	{
+		BaiTap_6.Matrix = new int[n][m];
+		for(int i=0;i<n;i++)
+		{
+			for(int j=0;j<m;j++)
+			{
+				boolean notNumber = false;
+				do
+				{
+					notNumber = false;
+					System.out .print("Nhập phần tử Matrix["+i+"]["+j+"] : ");
+					Scanner nhap = new Scanner(System.in);
+					try
+					{
+						BaiTap_6.Matrix[i][j] = nhap.nextInt();
+					}
+					catch(Exception e)
+					{
+						notNumber = true;
+					}
+				} while(notNumber == true);
+			}
+		}
+	}
+	
+	static void xuatMatrix(int[][] arr)
+	{
+		for(int i=0; i<arr[0].length(0);i++)
+		{
+			
+		}
+	}
+}

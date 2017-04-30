@@ -129,7 +129,7 @@ public class BaiTap_5
 
 	static void ResizeArray_Int(int $size)
 	{
-		int newsize = arrSNT.length; // newsize để kiểm tra giới hạn mảng để đưa phần từ cũ vào
+		int newsize = arrSNT.length; // newsize để kiểm tra giới hạn mảng để đưa phần tử cũ vào
 		if ($size < arrSNT.length)
 			newsize = $size;
 
