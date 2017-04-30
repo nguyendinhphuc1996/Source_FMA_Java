@@ -7,18 +7,13 @@ import java.util.Scanner;
 public class BaiTap_3
 {
 	static boolean laSoNguyenTo(int so)
-	{
+	{	
 		if (so < 2)
 			return false;
-		else if (so == 2)
-			return true;
-		else
+		for (int i = 2; i <= Math.sqrt((double) so); i++)
 		{
-			for (int i = 3; i <= Math.sqrt((double) so); i++)
-			{
-				if (so % i == 0)
-					return false;
-			}
+			if (so % i == 0)
+				return false;
 		}
 		return true;
 	}

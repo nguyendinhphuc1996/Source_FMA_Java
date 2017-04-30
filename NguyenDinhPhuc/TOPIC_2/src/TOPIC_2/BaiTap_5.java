@@ -1,6 +1,5 @@
 package TOPIC_2;
 
-import java.awt.List;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
@@ -15,6 +14,7 @@ import java.util.stream.IntStream;
 public class BaiTap_5
 {
 	static int[] arrInt;
+	static int[] arrSNT;
 
 	public static void main(String[] args)
 	{
@@ -42,13 +42,35 @@ public class BaiTap_5
 		System.out.println("\n\nMax = " + MaxValue(arrInt) + " & Min = " + MinValue(arrInt));
 		
 		// Tìm, đếm và tính tổng các phần tử là số nguyên tố.
-		int[] arrSNT = filter_PhanTu_SNT(arrInt);
+		int[] arrSoNguyenTo = filter_PhanTu_SNT(arrInt);
 		
-		System.out.println("\nCác phần tử là Số nguyên tố: ");
-		xuatPhanTu_SNT(arrSNT);
+		System.out.print("\nCác phần tử là Số nguyên tố: ");
+		xuatPhanTu_SNT(arrSoNguyenTo);
 		
-		System.out.println("Số phần tử là Số nguyên tố: "+arrSNT.length);
-		System.out.println("Tổng phần tử là Số nguyên tố: "+IntStream.of(arrSNT).sum());
+		System.out.println("\nSố phần tử là Số nguyên tố: "+arrSoNguyenTo.length);
+		System.out.println("Tổng phần tử là Số nguyên tố: "+IntStream.of(arrSoNguyenTo).sum());
+		
+		// Sắp xếp mảng tăng dần
+		arrInt = IntStream.of(arrInt).sorted().toArray();
+		System.out.print("\nMảng vừa sắp xếp tăng dần : ");
+		xuatMang(arrInt);
+		
+		// Tìm phần tử có giá trị x
+		System.out.print("\nNhập phần tử x cần tìm : ");
+		Scanner nhapX = new Scanner(System.in);
+		int x;
+		try
+		{
+			x = nhapX.nextInt();
+			System.out.print("\nCó phần tử \'"+ x +"\' không? ");
+			if(timPhanTuX(arrInt, x))
+				System.out.println("CÓ");
+			else
+				System.out.println("KHÔNG");
+		} catch (Exception e)
+		{
+			System.out.print("Nhập không hợp lệ!");
+		}
 	}
 
 	// ======= FUNCTION =======
@@ -105,30 +127,28 @@ public class BaiTap_5
 		return min;
 	}
 
-	static void ResizeArray_Int(int[] $array, int $size)
+	static void ResizeArray_Int(int $size)
 	{
-		int newsize = $array.length; // newsize để kiểm tra giới hạn mảng để đưa
-										// phần từ cũ vào
-		if ($size < $array.length)
+		int newsize = arrSNT.length; // newsize để kiểm tra giới hạn mảng để đưa phần từ cũ vào
+		if ($size < arrSNT.length)
 			newsize = $size;
 
-		int[] $arrayNew = $array;
-		$array = new int[$size]; // thay đổi kích thước
+		int[] $arrayNew = arrSNT;
+		arrSNT = new int[$size]; // thay đổi kích thước
 		for (int i = 0; i < newsize; i++)
 		{
-			$array[i] = $arrayNew[i];
+			arrSNT[i] = $arrayNew[i];
 		}
 	}
 
 	static int[] filter_PhanTu_SNT(int[] arr)
 	{
-		int[] arrSNT = new int[0];
+		arrSNT = new int[0];
 		for (int so : arr)
 		{
-			BaiTap_3 obj_BT3 = new BaiTap_3();
-			if (obj_BT3.laSoNguyenTo(so))
+			if (BaiTap_3.laSoNguyenTo(so)==true)
 			{
-				ResizeArray_Int(arrSNT, arrSNT.length + 1);
+				ResizeArray_Int(arrSNT.length + 1);
 				arrSNT[arrSNT.length - 1] = so;
 			}
 		}
@@ -141,5 +161,15 @@ public class BaiTap_5
 		{
 			System.out.print(i + " ");
 		}
+	}
+	
+	static boolean timPhanTuX(int[] arr, int x)
+	{
+		for(int num:arr)
+		{
+			if(num == x)
+				return true;
+		}
+		return false;
 	}
 }
