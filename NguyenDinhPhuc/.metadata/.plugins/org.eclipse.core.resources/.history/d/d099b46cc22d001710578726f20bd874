@@ -87,14 +87,13 @@ public class BaiTap_6
 		try
 		{
 			m = nhap.nextInt();
-			swapRow(n, m);
-			xuatMatrix(Matrix);
 		}
 		catch(Exception e)
 		{
-			System.out .print("Vị trí số dòng không hợp lệ!");
+			System.out .print("Vị trí số cột không hợp lệ!");
 			return;
 		}
+		swapRow(n), m);
 	}
 
 	//============= METHOD ================

@@ -73,27 +73,16 @@ public class BaiTap_6
 		
 		//-------- Hoán vị 2 dòng trong ma trận
 		System.out .println("\n> Hoán vị 2 dòng: ");
-		System.out .print("- Nhập vị trí dòng 1: ");
+		System.out .print("\n- Nhập dòng 1: ");
 		try
 		{
-			n = nhap.nextInt();
-		}
-		catch(Exception e)
-		{
-			System.out .println("Vị trí số dòng không hợp lệ!");
-			return;
-		}
-		System.out .print("- Nhập vị trí dòng 2: ");
-		try
-		{
-			m = nhap.nextInt();
-			swapRow(n, m);
+			int rowIndex = nhap.nextInt();
+			deleteRow(rowIndex);
 			xuatMatrix(Matrix);
 		}
 		catch(Exception e)
 		{
-			System.out .print("Vị trí số dòng không hợp lệ!");
-			return;
+			System.out .println("Nhập không hợp lệ!");
 		}
 	}
 

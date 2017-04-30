@@ -80,19 +80,17 @@ public class BaiTap_6
 		}
 		catch(Exception e)
 		{
-			System.out .println("Vị trí số dòng không hợp lệ!");
+			System.out .println("Số dòng không hợp lệ!");
 			return;
 		}
 		System.out .print("- Nhập vị trí dòng 2: ");
 		try
 		{
 			m = nhap.nextInt();
-			swapRow(n, m);
-			xuatMatrix(Matrix);
 		}
 		catch(Exception e)
 		{
-			System.out .print("Vị trí số dòng không hợp lệ!");
+			System.out .print("Số cột không hợp lệ!");
 			return;
 		}
 	}

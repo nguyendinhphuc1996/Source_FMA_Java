@@ -59,40 +59,15 @@ public class BaiTap_6
 		System.out.println("Dòng có tổng lớn nhất là: "+rowSumMax);
 		
 		//-------- Nhập số dòng cần xóa -> Xóa dòng đó
+		int rowIndex;
 		System.out .print("\n> Nhập số dòng cần xóa: ");
 		try
 		{
-			int rowIndex = nhap.nextInt();
-			deleteRow(rowIndex);
-			xuatMatrix(Matrix);
-		}
-		catch(Exception e)
-		{
-			System.out .println("Nhập không hợp lệ!");
-		}
-		
-		//-------- Hoán vị 2 dòng trong ma trận
-		System.out .println("\n> Hoán vị 2 dòng: ");
-		System.out .print("- Nhập vị trí dòng 1: ");
-		try
-		{
-			n = nhap.nextInt();
-		}
-		catch(Exception e)
-		{
-			System.out .println("Vị trí số dòng không hợp lệ!");
-			return;
-		}
-		System.out .print("- Nhập vị trí dòng 2: ");
-		try
-		{
 			m = nhap.nextInt();
-			swapRow(n, m);
-			xuatMatrix(Matrix);
 		}
 		catch(Exception e)
 		{
-			System.out .print("Vị trí số dòng không hợp lệ!");
+			System.out .print("Số cột không hợp lệ!");
 			return;
 		}
 	}
@@ -209,22 +184,12 @@ public class BaiTap_6
 		}
 		
 		Matrix = new int[n-1][m];
-		for (int i = 0; i < Matrix.length; i++)
+		for (int i = rowIndex; i < Matrix.length; i++)
 		{
 			for (int j = 0; j < Matrix[0].length; j++)
 			{
 				Matrix[i][j] = NewMatrix[i][j];
 			}
-		}
-	}
-	
-	static void swapRow(int rowA,int rowB)
-	{
-		for (int i = 0; i < Matrix[0].length; i++)
-		{
-			int Temp = Matrix[rowA][i];
-			Matrix[rowA][i] = Matrix[rowB][i];
-			Matrix[rowB][i] = Temp;
 		}
 	}
 }
