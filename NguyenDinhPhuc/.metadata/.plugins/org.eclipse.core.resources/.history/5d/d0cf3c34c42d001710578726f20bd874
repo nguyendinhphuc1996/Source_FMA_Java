@@ -1,0 +1,17 @@
+package TOPIC_2;
+
+/*
+ * 7. Đệ qui: Dùng đệ qui để tính toán các bài toán sau:
+ * - Tính S(n) = 1 + 2 + 3 + ... + n - 1 + n 
+ * - Tìm Ước chung lớn nhất giữa a,b
+ * - Hãy tính tổng các chữ số chẵn của số nguyên dương n
+ */
+
+public class BaiTap_7
+{
+	public static void main(String[] args)
+	{
+
+	}
+
+}

@@ -29,12 +29,13 @@ public class BaiTap_7
 		}
 		
 		// ---- Tìm Ước chung lớn nhất giữa a,b
-		int a, b;
-		System.out.print("\n\n> Nhập số nguyên a: ");
+		int a,b;
+		System.out.print("> Nhập số nguyên a: ");
 		try
 		{
 			a = scan.nextInt();
-		} catch (Exception e)
+		}
+		catch (Exception e) 
 		{
 			System.out.print("[!] Nhập không hợp lệ!");
 			return;
@@ -43,12 +44,13 @@ public class BaiTap_7
 		try
 		{
 			b = scan.nextInt();
-		} catch (Exception e)
+		}
+		catch (Exception e) 
 		{
 			System.out.print("[!] Nhập không hợp lệ!");
 			return;
 		}
-		System.out.print("=> UCLN " + a + " & " + b + " là : " + UCLN(Math.abs(a), Math.abs(b)));
+		
 	}
 	
 	// =========== METHOD ===========
