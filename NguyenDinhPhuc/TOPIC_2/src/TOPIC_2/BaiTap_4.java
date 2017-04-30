@@ -31,7 +31,7 @@ public class BaiTap_4
 			long khoangCach = $objDate.getTime()-now.getTime();
 			System.out.println("> Ngày vừa nhập: "+sdf.format($objDate));
 			System.out.println("> Ngày hiện tại: "+sdf.format(now));
-			System.out.print("=> Khoảng cách giữa 2 ngày: "+ Math.abs(TimeUnit.DAYS.convert(khoangCach, TimeUnit.MILLISECONDS)) );
+			System.out.println("=> Khoảng cách giữa 2 ngày: "+ Math.abs(TimeUnit.DAYS.convert(khoangCach, TimeUnit.MILLISECONDS)) ); 
 			
 		} catch (Exception e) // Xem thêm : nên dùng Exception hay ParseException
 		{
