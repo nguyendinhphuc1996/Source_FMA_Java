@@ -49,18 +49,6 @@ public class BaiTap_7
 			return;
 		}
 		System.out.print("=> UCLN " + a + " & " + b + " là : " + UCLN(Math.abs(a), Math.abs(b)));
-		
-		// ---- Hãy tính tổng các chữ số chẵn của số nguyên dương n
-		System.out.print("\n\n> Nhập số nguyên dương n: ");
-		try
-		{
-			n = scan.nextInt();
-			System.out.print("=> Tổng các số chẵn của "+n+" = "+sumNumberEven(n));
-		}
-		catch (Exception e) 
-		{
-			System.out.print("[!] Nhập không hợp lệ!");
-		}
 	}
 	
 	// =========== METHOD ===========
@@ -83,10 +71,8 @@ public class BaiTap_7
 	
 	static int sumNumberEven(int n)
 	{
-		if(n==0)
-			return 0;
-		if((n%10)%2==0)
-			return (n%10)+sumNumberEven(n/10);
-		else return sumNumberEven(n/10);
+		if(n%2==0)
+			return n+sumNumberEven(n-1);
+		else return sumNumberEven(n);
 	}
 }

@@ -6,12 +6,14 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="void inDaoNguoc(Ham chuoi)" key="selection"/>
+		<item value="int n = 0;" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="int n = 0;"/>
+			<item value="&#x09;static boolean isDate(String strDate)"/>
 			<item value="void inDaoNguoc(Ham chuoi)"/>
 		</list>
 		<list key="replacehistory">

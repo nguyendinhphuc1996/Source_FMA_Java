@@ -84,9 +84,9 @@ public class BaiTap_7
 	static int sumNumberEven(int n)
 	{
 		if(n==0)
-			return 0;
+			retunr 0;
 		if((n%10)%2==0)
 			return (n%10)+sumNumberEven(n/10);
-		else return sumNumberEven(n/10);
+		else return sumNumberEven(n-1);
 	}
 }
