@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench progressCount="31" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="25" y="25">
 <fastViewData fastViewLocation="1024"/>
@@ -8,7 +8,7 @@
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="153" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
@@ -36,52 +36,20 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaiTap_6.java" partName="BaiTap_6.java" path="E:/GITHUB/Source_FMA_Java/NguyenDinhPhuc/TOPIC_2/src/TOPIC_2/BaiTap_6.java" title="BaiTap_6.java" tooltip="TOPIC_2/src/TOPIC_2/BaiTap_6.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TOPIC_2/src/TOPIC_2/BaiTap_6.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="450" selectionTopPixel="279"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaiTap1_1.java" partName="BaiTap1_1.java" path="E:/GITHUB/Source_FMA_Java/NguyenDinhPhuc/TOPIC_3/src/phuc/BaiTap1_1.java" title="BaiTap1_1.java" tooltip="TOPIC_3/src/phuc/BaiTap1_1.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TOPIC_3/src/phuc/BaiTap1_1.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="593" selectionTopPixel="282"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaiTap_7.java" partName="BaiTap_7.java" path="E:/GITHUB/Source_FMA_Java/NguyenDinhPhuc/TOPIC_2/src/TOPIC_2/BaiTap_7.java" title="BaiTap_7.java" tooltip="TOPIC_2/src/TOPIC_2/BaiTap_7.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TOPIC_2/src/TOPIC_2/BaiTap_7.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1213" selectionTopPixel="739"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SwitchCase.java" partName="SwitchCase.java" path="E:/GITHUB/Source_FMA_Java/NguyenDinhPhuc/TOPIC_3/src/phuc/SwitchCase.java" title="SwitchCase.java" tooltip="TOPIC_3/src/phuc/SwitchCase.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TOPIC_3/src/phuc/SwitchCase.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="263" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
-<viewState/>
-</view>
-<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
-<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
-</xmlDefinedFilters>
-</customFilters>
-</viewState>
-</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -91,13 +59,35 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
@@ -117,8 +107,17 @@
 <filteredTreeFindHistory/>
 </viewState>
 </view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
+<viewState/>
+</view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -171,15 +170,15 @@
 <new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -204,7 +203,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.70611703" ratioLeft="531" ratioRight="221" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.71276593" ratioLeft="536" ratioRight="216" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -246,158 +245,164 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TOPIC_2/src/TOPIC_2/BaiTap_6.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TOPIC_2/src/TOPIC_2/BaiTap_7.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TOPIC_3/src/phuc/BaiTap1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TOPIC_3/src/phuc/BaiTap1_1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TOPIC_3/src/phuc/Demo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TOPIC_3/src/phuc/BaiTap1_1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TOPIC_2/src/TOPIC_2/BaiTap_2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TOPIC_2/src/TOPIC_2/BaiTap_5.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TOPIC_3/src/phuc/BaiTap1.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TOPIC_3/src/phuc/SwitchCase.java"/>
 </editors>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3222" y="0"/>
+<item historyLabel="BaiTap1.java" index="0">
+<position info="not_deleted" x="602" y="0"/>
 </item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3210" y="0"/>
+<item historyLabel="BaiTap1.java" index="0">
+<position info="not_deleted" x="679" y="0"/>
 </item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3252" y="0"/>
+<item historyLabel="BaiTap1.java" index="0">
+<position info="not_deleted" x="366" y="0"/>
 </item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3318" y="0"/>
+<item historyLabel="BaiTap1.java" index="0">
+<position info="not_deleted" x="369" y="0"/>
 </item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3352" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3399" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3008" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3561" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3681" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="1096" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="1123" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="1191" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="1253" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3598" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3732" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3795" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3828" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3894" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="1367" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="1221" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="4013" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="4034" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="4104" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="4510" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="3518" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="4361" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="1609" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="1607" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="1609" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="4232" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="4712" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="2209" y="0"/>
-</item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="450" y="0"/>
-</item>
-<item historyLabel="BaiTap_7.java" index="1">
+<item historyLabel="BaiTap1_1.java" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BaiTap_7.java" index="1">
-<position info="not_deleted" x="1237" y="0"/>
+<item historyLabel="BaiTap1_1.java" index="1">
+<position info="not_deleted" x="111" y="0"/>
 </item>
-<item historyLabel="BaiTap_7.java" index="1">
-<position info="not_deleted" x="1255" y="0"/>
+<item historyLabel="BaiTap1_1.java" index="1">
+<position info="not_deleted" x="447" y="0"/>
 </item>
-<item historyLabel="BaiTap_7.java" index="1">
-<position info="not_deleted" x="431" y="0"/>
+<item historyLabel="BaiTap1_1.java" index="1">
+<position info="not_deleted" x="445" y="0"/>
 </item>
-<item historyLabel="BaiTap_7.java" index="1">
-<position info="not_deleted" x="486" y="0"/>
+<item historyLabel="BaiTap1_1.java" index="1">
+<position info="not_deleted" x="141" y="0"/>
 </item>
-<item historyLabel="BaiTap_7.java" index="1">
-<position info="not_deleted" x="1170" y="0"/>
+<item historyLabel="BaiTap1_1.java" index="1">
+<position info="not_deleted" x="443" y="0"/>
 </item>
-<item historyLabel="BaiTap_7.java" index="1">
-<position info="not_deleted" x="1341" y="0"/>
+<item historyLabel="BaiTap1_1.java" index="1">
+<position info="not_deleted" x="186" y="0"/>
 </item>
-<item historyLabel="BaiTap_7.java" index="1">
-<position info="not_deleted" x="1360" y="0"/>
+<item historyLabel="BaiTap1_1.java" index="1">
+<position info="not_deleted" x="387" y="0"/>
 </item>
-<item historyLabel="BaiTap_7.java" index="1">
-<position info="not_deleted" x="1410" y="0"/>
+<item historyLabel="BaiTap1_1.java" index="1">
+<position info="not_deleted" x="176" y="0"/>
 </item>
-<item historyLabel="BaiTap_7.java" index="1">
-<position info="not_deleted" x="1408" y="0"/>
+<item historyLabel="BaiTap1_1.java" index="1">
+<position info="not_deleted" x="152" y="0"/>
 </item>
-<item historyLabel="BaiTap_7.java" index="1">
-<position info="not_deleted" x="953" y="0"/>
+<item historyLabel="Demo.java" index="2">
+<position info="not_deleted" x="367" y="0"/>
 </item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="450" y="0"/>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BaiTap_7.java" index="1">
-<position info="not_deleted" x="953" y="0"/>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position/>
 </item>
-<item historyLabel="BaiTap_6.java" index="0">
-<position info="not_deleted" x="450" y="0"/>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position/>
 </item>
-<item active="true" historyLabel="BaiTap_7.java" index="1">
-<position info="not_deleted" x="953" y="0"/>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="143" y="0"/>
+</item>
+<item historyLabel="BaiTap_2.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="143" y="0"/>
+</item>
+<item historyLabel="BaiTap_5.java" index="5">
+<position/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position/>
+</item>
+<item historyLabel="BaiTap_5.java" index="5">
+<position info="not_deleted" x="18" y="0"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position/>
+</item>
+<item historyLabel="BaiTap1.java" index="6">
+<position info="not_deleted" x="369" y="0"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="188" y="0"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="508" y="0"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="132" y="0"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="0" y="1"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="8" y="0"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="0" y="1"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="186" y="0"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="561" y="0"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="564" y="0"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="326" y="0"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="353" y="0"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="593" y="0"/>
+</item>
+<item historyLabel="SwitchCase.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SwitchCase.java" index="7">
+<position info="not_deleted" x="360" y="0"/>
+</item>
+<item historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="593" y="0"/>
+</item>
+<item historyLabel="SwitchCase.java" index="7">
+<position info="not_deleted" x="360" y="0"/>
+</item>
+<item historyLabel="SwitchCase.java" index="7">
+<position info="not_deleted" x="257" y="0"/>
+</item>
+<item historyLabel="SwitchCase.java" index="7">
+<position info="not_deleted" x="263" y="0"/>
+</item>
+<item active="true" historyLabel="BaiTap1_1.java" index="3">
+<position info="not_deleted" x="593" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -409,9 +414,9 @@
 <trimItem IMemento.internal.id="left"/>
 </trimArea>
 <trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="right"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@ef7623"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+<trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@2cc822"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -425,6 +430,21 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SwitchCase.java" tooltip="TOPIC_3/src/phuc/SwitchCase.java">
+<persistable path="/TOPIC_3/src/phuc/SwitchCase.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaiTap_5.java" tooltip="TOPIC_2/src/TOPIC_2/BaiTap_5.java">
+<persistable path="/TOPIC_2/src/TOPIC_2/BaiTap_5.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaiTap_2.java" tooltip="TOPIC_2/src/TOPIC_2/BaiTap_2.java">
+<persistable path="/TOPIC_2/src/TOPIC_2/BaiTap_2.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaiTap1_1.java" tooltip="TOPIC_3/src/phuc/BaiTap1_1.java">
+<persistable path="/TOPIC_3/src/phuc/BaiTap1_1.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaiTap1.java" tooltip="TOPIC_3/src/phuc/BaiTap1.java">
+<persistable path="/TOPIC_3/src/phuc/BaiTap1.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaiTap_7.java" tooltip="TOPIC_2/src/TOPIC_2/BaiTap_7.java">
 <persistable path="/TOPIC_2/src/TOPIC_2/BaiTap_7.java"/>
 </file>
@@ -439,12 +459,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaiTap_4.java" tooltip="TOPIC_2/src/TOPIC_2/BaiTap_4.java">
 <persistable path="/TOPIC_2/src/TOPIC_2/BaiTap_4.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaiTap_2.java" tooltip="TOPIC_2/src/TOPIC_2/BaiTap_2.java">
-<persistable path="/TOPIC_2/src/TOPIC_2/BaiTap_2.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BaiTap_5.java" tooltip="TOPIC_2/src/TOPIC_2/BaiTap_5.java">
-<persistable path="/TOPIC_2/src/TOPIC_2/BaiTap_5.java"/>
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="java.lang.String">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TOPIC_2/C:\/Program Files\/Java\/jdk1.8.0_131\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>

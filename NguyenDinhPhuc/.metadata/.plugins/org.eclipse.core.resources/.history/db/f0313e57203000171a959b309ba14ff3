@@ -1,0 +1,26 @@
+package phuc;
+
+import java.util.Scanner;
+
+public class BaiTap1_1
+{
+	private static Scanner scan;
+
+	public static void main(String[] args)
+	{
+		menu();
+	}
+
+	static void menu()
+	{
+//		add/ADD – Input
+//		disp/DISP – Display
+//		exit/EXIT – Eixt application
+		System.out.println("*************** MENU ***************");
+		System.out.println("* 1. add -> Input                  *");
+		System.out.println("*************** MENU ***************");
+		System.out.println("*************** MENU ***************");
+		System.out.println("*************** MENU ***************");
+		System.out.println("*************** MENU ***************");
+	}
+}

@@ -1,0 +1,38 @@
+package MyMethods;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class MyMethods
+{
+	public static boolean checkStringIsDate(String $string) // Kiểm tra chuỗi phải là Date
+	{
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		try
+		{
+			Date $date = sdf.parse($string);
+			return true;
+		}catch(Exception e)
+		{
+			return false;
+		}
+	}
+	
+	public static Date getDateFromString(String $string, String $format) // Chuyển đổi chuối sang Date
+	{
+		Date $date = null;
+		SimpleDateFormat sdf = new SimpleDateFormat($format);
+		try
+		{
+			$date = sdf.parse($string);
+		}catch(Exception e)
+		{
+		}
+		return $date;
+	}
+	
+	public static boolean isStringEmpty(String $string)
+	{
+		
+	}
+}

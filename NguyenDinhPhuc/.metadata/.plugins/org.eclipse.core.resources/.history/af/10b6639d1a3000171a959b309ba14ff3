@@ -1,0 +1,18 @@
+package phuc;
+
+import java.util.Scanner;
+
+public class SwitchCase
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Choose your choice: ");
+		String choice = scan.nextLine();
+		switch(choice)
+		{
+			case "a": System.out.println("a"); break;
+			case "b": System.out.println("b"); break;
+		}
+	}
+}

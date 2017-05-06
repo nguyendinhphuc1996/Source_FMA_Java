@@ -18,7 +18,7 @@ public class MyMethods
 			return false;
 		}
 	}
-
+	
 	// Chuyển đổi chuối sang Date
 	public static Date getDateFromString(String $string, String $format) 
 	{
@@ -32,11 +32,24 @@ public class MyMethods
 		}
 		return $date;
 	}
+	
+	// Xuất Date theo định dạng
+	public static String getDateFormat(Date $date, String $format)
+	{
+		SimpleDateFormat sdf = new SimpleDateFormat($format);
+		try
+		{
+			return sdf.format($date);
+		}catch(Exception e)
+		{
+			return "Error(Date)!";
+		}
+	}
 
 	// Kiểm tra chuỗi có phải là chuỗi Empty (trống)
 	public static boolean isStringEmpty(String $string)
 	{
-		if ($string == (" ").trim())
+		if ($string.equals(""))
 			return true;
 		return false;
 	}
@@ -44,7 +57,7 @@ public class MyMethods
 	// Kiểm tra chuỗi có phải là chuỗi Null
 	public static boolean isStringNull(String $string)
 	{
-		if ($string == null)
+		if ($string.equals(null))
 			return true;
 		return false;
 	}

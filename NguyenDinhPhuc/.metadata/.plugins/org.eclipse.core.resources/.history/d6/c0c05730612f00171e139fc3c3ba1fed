@@ -1,0 +1,18 @@
+package phuc;
+
+public class BaiTap1
+{
+	public static void main(String[] args)
+	{
+		//========== Ví dụ 1 ===========
+		System.out.println("//========== Ví dụ 1 ===========");
+	}
+}
+
+class Customer
+{
+	int customerID;
+	String customerName;
+	String customerAddress;
+	int customerAge;
+}

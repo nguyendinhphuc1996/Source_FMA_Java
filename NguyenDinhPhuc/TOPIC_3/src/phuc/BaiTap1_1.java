@@ -37,6 +37,8 @@ public class BaiTap1_1
 					sv.nhapThongTin();
 					break;
 				case "disp":
+					System.out.println();
+					sv.display();
 					break;
 				case "exit":
 					break;
@@ -192,7 +194,7 @@ class SinhVien
 		}
 		System.out.print("- Nhập nơi sinh: ");
 		setNoiSinh(scan.nextLine());
-		System.out.print("- Nhập ngày sinh: ");
+		System.out.print("- Nhập ngày sinh (dd/MM/yyyy): ");
 		String $date = scan.nextLine();
 		if(MyMethods.checkStringIsDate($date)) {
 			setNgaySinh(MyMethods.getDateFromString($date, "dd/MM/yyyy"));
@@ -203,7 +205,6 @@ class SinhVien
 		$string = scan.nextLine();
 		if(!MyMethods.isStringEmpty($string) && !MyMethods.isStringNull($string) && checkMaleFemale($string)) {
 			setGioiTinh($string);
-			System.out.print("a"+$string+"bc");
 		} else {
 			System.out.println("[!] Nhập giới tính không hợp lệ!");
 		}
@@ -226,5 +227,12 @@ class SinhVien
 		{
 			return true;
 		}else return false;
+	}
+	
+	public void display()
+	{
+		System.out.printf("%-5s%-15s%-15s%-10s%-15s%-15s%-20s%-15s\n", "MSSV", "Họ tên", "Nơi sinh", "Ngày sinh","Giới tính", "Số ĐT", "Email", "Mã lớp");
+		System.out.printf("%-5s%-15s%-15s%-10s%-15s%-15s%-20s%-15s", this.getMssv().toString(), this.getHoTen(), this.getNoiSinh(), MyMethods.getDateFormat(this.getNgaySinh(), "dd/MM/yyyy"), this.getGioiTinh(),this.getSdt(), this.getEmail(),this.getMaLop());
+		System.out.println();
 	}
 }

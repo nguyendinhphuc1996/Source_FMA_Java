@@ -1,0 +1,12 @@
+package phuc;
+
+import java.util.Scanner;
+
+public class SwitchCase
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		
+	}
+}

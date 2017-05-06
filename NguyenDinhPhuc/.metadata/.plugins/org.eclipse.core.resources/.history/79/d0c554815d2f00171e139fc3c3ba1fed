@@ -1,0 +1,33 @@
+package phuc;
+
+import java.util.Scanner;
+
+public class Demo
+{
+	public static void main(String[] args)
+	{
+		System.out.println("----------- Ví dụ 1 về Scanner -----------");
+		String s = "Hello World!";
+		Scanner scanner = new Scanner(s);
+		System.out.println("=>..." + scanner.next());
+		System.out.println("=>..." + scanner.next());
+
+		System.out.println("----------- Ví dụ 2 về Scanner -----------");
+		scanner = new Scanner(System.in);	
+		System.out.print("Nhập x: ");
+		String x = scanner.next();
+		System.out.println("=>..." + x);
+		
+		System.out.println("----------- Ví dụ 3 về Scanner -----------");
+		scanner = new Scanner(System.in);	
+		int y = scanner.nextInt();
+
+		System.out.println("...." + y);
+
+		String y = scanner.nextLine();
+		System.out.println("...." + y);
+
+		// close the scanner
+		scanner.close();
+	}
+}

@@ -1,0 +1,34 @@
+package phuc;
+
+import java.util.Scanner;
+
+public class BaiTap1_1
+{
+	private static Scanner scan;
+
+	public static void main(String[] args)
+	{
+		menu();
+	}
+
+	//============== METHOD ==============
+	
+	static void menu()
+	{
+		System.out.println("*************** MENU ***************");
+		System.out.println("* 1. add -> Input                  *");
+		System.out.println("* 2. disp -> Display               *");
+		System.out.println("* 3. exit -> Exit application      *");
+		System.out.println("************************************");
+	}
+}
+
+// Class Sinh Viên
+
+class SinhVien
+{
+	// field
+	int mssv;
+	String hoTen;
+	String noiSinh;
+}

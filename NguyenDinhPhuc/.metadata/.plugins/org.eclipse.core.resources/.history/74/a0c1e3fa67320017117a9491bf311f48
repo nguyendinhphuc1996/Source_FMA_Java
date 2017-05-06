@@ -1,0 +1,11 @@
+package MyMethods;
+
+import java.text.SimpleDateFormat;
+
+public class MyMethods
+{
+	public Boolean CheckStringIsDate(String $string)
+	{
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+	}
+}

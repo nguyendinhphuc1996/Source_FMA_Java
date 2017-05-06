@@ -1,0 +1,151 @@
+package phuc;
+
+import java.util.Date;
+import java.util.Scanner;
+
+public class BaiTap1_1
+{
+	private static Scanner scan;
+
+	public static void main(String[] args)
+	{
+		menu();
+	}
+
+	// ============== METHOD ==============
+
+	static void menu()
+	{
+		String choice;
+		do
+		{
+			System.out.println("*************** MENU ***************");
+			System.out.println("* 1. add -> Input                  *");
+			System.out.println("* 2. disp -> Display               *");
+			System.out.println("* 3. exit -> Exit application      *");
+			System.out.println("************************************");
+			scan = new Scanner(System.in);
+			System.out.print("[+] Nhập lựa chọn của bạn: ");
+			choice = scan.nextLine();
+			switch (choice)
+			{
+				case "add":
+					break;
+				case "disp":
+					break;
+				case "exit":
+					break;
+				default:
+					break;
+			}
+		} while (!choice.equals("exit"));
+	}
+}
+
+// Class Sinh Viên
+
+class SinhVien
+{
+	// variables
+
+	// fields
+	int mssv;
+	String hoTen;
+	String noiSinh;
+	Date ngaySinh;
+	Boolean gioiTinh;
+	String sdt;
+	String email;
+	String maLop;
+
+	// get/set
+	public int getMssv()
+	{
+		return mssv;
+	}
+
+	public void setMssv(int mssv)
+	{
+		this.mssv = mssv;
+	}
+
+	public String getHoTen()
+	{
+		return hoTen;
+	}
+
+	public void setHoTen(String hoTen)
+	{
+		if(hoTen.trim().equals(""))
+		{
+			
+		}
+		else this.hoTen = hoTen;
+	}
+
+	public String getNoiSinh()
+	{
+		return noiSinh;
+	}
+
+	public void setNoiSinh(String noiSinh)
+	{
+		this.noiSinh = noiSinh;
+	}
+
+	public Date getNgaySinh()
+	{
+		return ngaySinh;
+	}
+
+	public void setNgaySinh(Date ngaySinh)
+	{
+		this.ngaySinh = ngaySinh;
+	}
+
+	public Boolean getGioiTinh()
+	{
+		return gioiTinh;
+	}
+
+	public void setGioiTinh(Boolean gioiTinh)
+	{
+		this.gioiTinh = gioiTinh;
+	}
+
+	public String getSdt()
+	{
+		return sdt;
+	}
+
+	public void setSdt(String sdt)
+	{
+		this.sdt = sdt;
+	}
+
+	public String getEmail()
+	{
+		return email;
+	}
+
+	public void setEmail(String email)
+	{
+		this.email = email;
+	}
+
+	public String getMaLop()
+	{
+		return maLop;
+	}
+
+	public void setMaLop(String maLop)
+	{
+		this.maLop = maLop;
+	}
+
+	// methods
+	public void nhapThongTin()
+	{
+		
+	}
+}

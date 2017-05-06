@@ -1,0 +1,26 @@
+package phuc;
+
+public class BaiTap1
+{
+	public static void main(String[] args)
+	{
+		System.out.println("========== Ví dụ 1 ===========");
+		Customer c = new Customer();
+		c.customerID = 4496;
+		c.customerName = "Phuc";
+		c.customerAddress = "HCM City";
+		c.customerAge = 21;
+		System.out.println("ID: "+c.customerID);
+		System.out.println("Name: "+c.customerName);
+		System.out.println("Address: "+c.customerAddress);
+		System.out.println("Age: "+c.customerAge);
+	}
+}
+
+class Customer
+{
+	int customerID;
+	String customerName;
+	String customerAddress;
+	int customerAge;
+}

@@ -1,0 +1,16 @@
+package phuc;
+
+public class BaiTap1
+{
+	public static void main(String[] args)
+	{
+
+	}
+}
+
+class Customer
+{
+	int customerID;
+	String customerName;
+	String customerAddress;
+}

@@ -1,0 +1,9 @@
+package MyMethods;
+
+public class MyMethods
+{
+	public Boolean CheckStringIsDate(String $string)
+	{
+		
+	}
+}
