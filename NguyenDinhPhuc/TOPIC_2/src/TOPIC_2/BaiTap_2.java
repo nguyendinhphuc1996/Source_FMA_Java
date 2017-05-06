@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 public class BaiTap_2
 {
+	private static Scanner nhap;
+
 	static boolean laChuoiSo(String s)
 	{
 		for (char c : s.toCharArray()) // là foreach
@@ -24,7 +26,7 @@ public class BaiTap_2
 		String str = new String();
 		do
 		{
-			Scanner nhap = new Scanner(System.in);
+			nhap = new Scanner(System.in);
 			System.out.print("Nhập vào một chuỗi: ");
 			str = nhap.nextLine();
 

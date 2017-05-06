@@ -15,11 +15,13 @@ import java.util.concurrent.TimeUnit;
 
 public class BaiTap_4
 {
+	private static Scanner nhapDate;
+
 	public static void main(String[] args)
 	{
 		String $date = new String();
 		System.out.print("Nhập vào một ngày (dd/MM/yyyy): ");
-		Scanner nhapDate = new Scanner(System.in);
+		nhapDate = new Scanner(System.in);
 		$date = nhapDate.nextLine();
 
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");

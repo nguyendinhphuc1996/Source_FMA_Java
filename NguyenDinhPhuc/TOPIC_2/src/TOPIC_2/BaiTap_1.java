@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 public class BaiTap_1
 {
+	private static Scanner in;
+	
 	String chuoiDaoNguoc(String chuoi) // Cách 1
 	{	
 		String strDaoNguoc = new String(); 
@@ -19,7 +21,7 @@ public class BaiTap_1
 	public static void main(String[] args)
 	{
 		System.out.print("Nhập chuỗi ký tự : ");
-		Scanner in = new Scanner(System.in);
+		in = new Scanner(System.in);
 		String str = in.nextLine();
 		
 		BaiTap_1 obj = new BaiTap_1();

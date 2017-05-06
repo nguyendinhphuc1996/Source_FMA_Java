@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 public class BaiTap_3
 {
+	private static Scanner nhapSo;
+
 	static boolean laSoNguyenTo(int so)
 	{	
 		if (so < 2)
@@ -27,7 +29,7 @@ public class BaiTap_3
 	{
 		String so = new String();
 		System.out.print("Nhập vào một dãy số nguyên (cách nhau bằng dấu \',\') : ");
-		Scanner nhapSo = new Scanner(System.in);
+		nhapSo = new Scanner(System.in);
 		so = nhapSo.nextLine();
 		try
 		{

@@ -13,11 +13,12 @@ import java.util.Scanner;
 public class BaiTap_6
 {
 	static int[][] Matrix;
+	private static Scanner nhap;
 	
 	public static void main(String[] args)
 	{
 		int n, m;
-		Scanner nhap = new Scanner(System.in);
+		nhap = new Scanner(System.in);
 		
 		System.out.println("> Nhập ma trận:");
 		System.out .print("- Nhập số dòng: ");
@@ -111,7 +112,7 @@ public class BaiTap_6
 				{
 					notNumber = false;
 					System.out .print("Nhập phần tử Matrix["+i+"]["+j+"] : ");
-					Scanner nhap = new Scanner(System.in);
+					nhap = new Scanner(System.in);
 					try
 					{
 						BaiTap_6.Matrix[i][j] = nhap.nextInt();

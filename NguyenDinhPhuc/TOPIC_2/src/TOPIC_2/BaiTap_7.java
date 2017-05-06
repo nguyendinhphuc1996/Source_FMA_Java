@@ -11,10 +11,12 @@ import java.util.Scanner;
 
 public class BaiTap_7
 {
+	private static Scanner scan;
+
 	public static void main(String[] args)
 	{
 		int n;
-		Scanner scan = new Scanner(System.in);
+		scan = new Scanner(System.in);
 		
 		// ---- Tính S(n) = 1 + 2 + 3 + ... + n - 1 + n 
 		System.out.print("> Nhập số nguyên dương n: ");

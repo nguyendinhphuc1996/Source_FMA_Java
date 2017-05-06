@@ -15,12 +15,15 @@ public class BaiTap_5
 {
 	static int[] arrInt;
 	static int[] arrSNT;
+	private static Scanner nhapN;
+	private static Scanner input;
+	private static Scanner nhapX;
 
 	public static void main(String[] args)
 	{
 		int n = 0;
 		System.out.print("Nhập n phần tử mảng số nguyên (n>0): ");
-		Scanner nhapN = new Scanner(System.in);
+		nhapN = new Scanner(System.in);
 		try
 		{
 			n = nhapN.nextInt();
@@ -57,7 +60,7 @@ public class BaiTap_5
 		
 		// Tìm phần tử có giá trị x
 		System.out.print("\nNhập phần tử x cần tìm : ");
-		Scanner nhapX = new Scanner(System.in);
+		nhapX = new Scanner(System.in);
 		int x;
 		try
 		{
@@ -84,7 +87,7 @@ public class BaiTap_5
 			{
 				notNumber = false;
 				System.out.print("Nhập phần tử thứ " + (i + 1) + ": ");
-				Scanner input = new Scanner(System.in);
+				input = new Scanner(System.in);
 				try
 				{
 					arrInt[i] = input.nextInt();
